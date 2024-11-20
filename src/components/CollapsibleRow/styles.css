@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.row {
+  margin: 10px 20px;
+  transform: scaleY(0);
+  transition: transform 500ms ease-in-out;
+}
+
+.row[aria-expanded=true] {
+  transform: scaleY(1);
+}
+
+.parent {
+  display: flex;
+  align-items: center;
+}
