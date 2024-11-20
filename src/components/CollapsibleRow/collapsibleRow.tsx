@@ -18,7 +18,7 @@ export default function CollapsibleRow(props: { row: Row }) {
     let textColor =  TypeToColor[row.type] || (hasChildren ? 'text-yellow-600' : 'text-blue-600')
 
     return (
-            <div className='row' aria-expanded={true}>
+            <div className={`row ${!hasChildren && 'no-children'}`} aria-expanded={true}>
                 <div className={`parent text-med ${textColor}`}
                      tabIndex={hasChildren ? 0 : null}
                      onKeyDown={(e) => e.key === 'Enter' && setCollapsed(!collapsed)}

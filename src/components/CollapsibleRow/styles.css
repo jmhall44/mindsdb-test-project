@@ -3,13 +3,17 @@
 @tailwind utilities;
 
 .row {
-  margin: 10px 20px;
+  margin: 10px 16px;
   transform: scaleY(0);
   transition: transform 500ms ease-in-out;
 }
 
 .row[aria-expanded=true] {
   transform: scaleY(1);
+}
+
+.no-children {
+  margin-left: 24px;
 }
 
 .parent {
