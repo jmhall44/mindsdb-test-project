@@ -18,6 +18,8 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
+Note: Took some liberties with the icons so I could use an external library
+
 Mobile: 
 <img width="451" alt="Screenshot 2024-11-19 at 4 39 40 PM" src="https://github.com/user-attachments/assets/afb546ac-ca92-4c59-9fff-376da2e52db9">
 
