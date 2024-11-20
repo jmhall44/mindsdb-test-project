@@ -10,7 +10,7 @@ import {
 import React from "react";
 
 // Easy to add new icons as they come up
-export const typeToIcon = {
+export const TypeToIcon = {
     'system': <CircleStackIcon className="h-5 w-5 font-bold text-blue-600" aria-label='System' />,
     'project':  <CircleStackIcon className="h-5 w-5 font-bold text-blue-600" aria-label='Project'/>,
     'view': <EyeIcon className="h-5 w-5 font-bold text-green-500" aria-label='View'/>,

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Icon from "../Icon/icon.tsx";
 import Label from "../Label/label.tsx";
 import { Row } from "../../types.ts";
-import { typeToColor } from "./const.tsx";
+import { TypeToColor } from "./const.tsx";
 
 import './styles.css'
 
@@ -15,7 +15,7 @@ export default function CollapsibleRow(props: { row: Row }) {
 
     // I always want to add an icon/text color but if there is no type, default to file folder icon or stack
     let type = row.type || (hasChildren ? 'blank-with-children' : 'blank-no-children');
-    let textColor =  typeToColor[row.type] || (hasChildren ? 'text-yellow-600' : 'text-blue-600')
+    let textColor =  TypeToColor[row.type] || (hasChildren ? 'text-yellow-600' : 'text-blue-600')
 
     return (
             <div className='row' aria-expanded={true}>

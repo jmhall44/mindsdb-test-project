@@ -1,6 +1,4 @@
-
-// c
-export const typeToColor = {
+export const TypeToColor = {
     'system': 'text-gray-600',
     'project': 'text-blue-600',
     'view': 'text-green-500',

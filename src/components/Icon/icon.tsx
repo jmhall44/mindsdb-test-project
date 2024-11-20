@@ -1,7 +1,7 @@
-import { typeToIcon } from "./const.tsx";
+import { TypeToIcon } from "./const.tsx";
 
 export default function Icon(props: { type: string }) {
     const { type } = props;
 
-    return (typeToIcon[type]);
+    return (TypeToIcon[type]);
 }
