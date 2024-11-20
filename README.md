@@ -30,8 +30,11 @@ Requirements:
 
 Note: Took some liberties with the icons so I could use an external library
 
-Mobile: 
-<img width="451" alt="Screenshot 2024-11-19 at 4 39 40 PM" src="https://github.com/user-attachments/assets/afb546ac-ca92-4c59-9fff-376da2e52db9">
+**Mobile:** 
+<img width="413" alt="Screenshot 2024-11-20 at 7 51 10 AM" src="https://github.com/user-attachments/assets/870f8b97-b736-4fc1-99d8-5c0a94106827">
 
-Web:
-<img width="703" alt="Screenshot 2024-11-19 at 4 38 47 PM" src="https://github.com/user-attachments/assets/c92c45e6-76f4-4e5f-a975-fe4bc3a0d9c3">
+
+**Web:**
+<img width="683" alt="Screenshot 2024-11-20 at 7 50 49 AM" src="https://github.com/user-attachments/assets/79c99a45-7be8-44b7-973f-5b95532c0b16">
+
+
